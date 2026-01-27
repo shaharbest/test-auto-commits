@@ -1,0 +1,20 @@
+{
+  "instanceName": "aws-prod-template",
+  "domainName": "autoloto-aws-prod-template.app.autoloto.co",
+  "appVersion": "v0.0.22",
+  "source": {
+    "targetRevision": "v0.0.28"
+  },
+  "autolotoMigration": {
+    "enabled": true,
+    "extractionApiUrl": "https://template.aws.app.autoloto.co/rest/Custom"
+  },
+  "appConfiguration": {
+    "mobileToken": "XXXXXX"
+  },
+  "cluster": {
+    "provider": "aws",
+    "provider_account_id": "602896467642",
+    "name": "aws-prod-ap-01"
+  }
+}
