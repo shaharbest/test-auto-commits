@@ -1,0 +1,20 @@
+{
+  "instanceName": "gcp-template",
+  "domainName": "autoloto-gcp-template.app.autoloto.co",
+  "appVersion": "v0.0.22",
+  "source": {
+    "targetRevision": "v0.0.28"
+  },
+  "autolotoMigration": {
+    "enabled": true,
+    "extractionApiUrl": "https://template.gcp.app.autoloto.co/rest/Custom"
+  },
+  "appConfiguration": {
+    "mobileToken": "XXXXXX"
+  },
+  "cluster": {
+    "provider": "gcp",
+    "provider_account_id": "602896467642",
+    "name": "gcp-prod-ap-01"
+  }
+}

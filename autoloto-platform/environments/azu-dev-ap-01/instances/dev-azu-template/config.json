@@ -1,0 +1,20 @@
+{
+  "instanceName": "azu-template",
+  "domainName": "autoloto-azu-template.app.autoloto.co",
+  "appVersion": "v0.0.22",
+  "source": {
+    "targetRevision": "v0.0.28"
+  },
+  "autolotoMigration": {
+    "enabled": true,
+    "extractionApiUrl": "https://template.az.app.autoloto.co/rest/Custom"
+  },
+  "appConfiguration": {
+    "mobileToken": "XXXXXX"
+  },
+  "cluster": {
+    "provider": "azu",
+    "provider_account_id": "602896467642",
+    "name": "azu-prod-ap-01"
+  }
+}
