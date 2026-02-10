@@ -15,6 +15,6 @@
   "cluster": {
     "provider": "gcp",
     "provider_account_id": "602896467642",
-    "name": "gcp-prod-ap-01"
+    "name": "gcp-dev-ap-01"
   }
 }
