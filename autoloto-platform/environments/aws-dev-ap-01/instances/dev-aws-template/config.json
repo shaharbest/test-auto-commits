@@ -15,6 +15,6 @@
   "cluster": {
     "provider": "aws",
     "provider_account_id": "602896467642",
-    "name": "aws-prod-ap-01"
+    "name": "aws-dev-ap-01"
   }
 }
