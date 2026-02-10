@@ -15,6 +15,6 @@
   "cluster": {
     "provider": "azu",
     "provider_account_id": "602896467642",
-    "name": "azu-prod-ap-01"
+    "name": "azu-dev-ap-01"
   }
 }
