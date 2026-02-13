@@ -1,0 +1,20 @@
+{
+  "instanceName": "test-dev-aws-template",
+  "domainName": "autoloto-aws-template.app.autoloto.co",
+  "appVersion": "test v.1",
+  "source": {
+    "targetRevision": "main"
+  },
+  "autolotoMigration": {
+    "enabled": false,
+    "extractionApiUrl": ""
+  },
+  "appConfiguration": {
+    "mobileToken": ""
+  },
+  "cluster": {
+    "provider": "aws",
+    "name": "aws-dev-ap-01"
+  },
+  "platform": "aws"
+}
